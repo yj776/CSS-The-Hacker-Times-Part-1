@@ -15,11 +15,15 @@ nav ul li a:hover{
 }
 
 nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
     padding: .1px;
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     max-width: 100*;
     height: auto;
