@@ -15,16 +15,16 @@ nav ul li a:hover{
 }
 
 nav{
-    position: sticky;
     padding: .1px;
     border-bottom: 1px solid lightgray;
     border-top: 1px solid lightgray;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 100*;
     height: auto;
 }
+
 
 h1{
     text-align: center;
@@ -96,3 +96,7 @@ img{
     left:50%;
     transform:translate(-50%,-10%);
 } 
+
+.more-articles{
+    text-align: center;
+}
